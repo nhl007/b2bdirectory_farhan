@@ -53,9 +53,6 @@ export const authOptions: AuthOptions = {
         user = await User.create({
           email: payload?.email,
           discourseId: payload?.id,
-          // avatar:
-          //   process.env.DISCOURSE_API_URL +
-          //   discourseData[0].avatar_template.replace("{size}", "96"),
           avatar: payload?.avatar,
           name: payload?.name,
           username: payload?.username,

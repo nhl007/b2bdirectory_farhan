@@ -520,11 +520,6 @@ export const popularServicesOptions = [
   "Physiotherapy",
   "Positive Behavior Support Plan",
   "Key Worker",
-  // "Accessing the Community",
-  // "Nurse",
-  // "Mentor",
-  // "Social Worker",
-  // "Art Therapy",
 ];
 
 export const complexNeedsSupportedOptions = [
