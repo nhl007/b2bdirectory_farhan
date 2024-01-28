@@ -7,12 +7,9 @@ import { stringifyResponse } from "../utils/utils";
 import { getAuthSession } from "@/libs/auth";
 import { connectToDB } from "@/libs/connectToDb";
 import Business from "@/models/Business";
-import { BusinessDatabaseModel, BusinessReviewData } from "@/types/business";
+import { BusinessDatabaseModel } from "@/types/business";
 import { SearchParamsActions } from "@/types/common";
-import {
-  getLatLngByPostalCode,
-  getLatLngBySuburbsAndPostCode,
-} from "@/utils/postalCodeSearch";
+import { getLatLngBySuburbsAndPostCode } from "@/utils/postalCodeSearch";
 import { Error } from "mongoose";
 import { Session } from "next-auth";
 

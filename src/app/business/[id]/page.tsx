@@ -6,7 +6,6 @@ import { getBusinessById } from "@/actions/businessActions";
 import { BusinessDatabaseModel } from "@/types/business";
 import Link from "next/link";
 import LocationDropdown from "@/components/LocationDropdown";
-// import Reviews from "@/components/Reviews";
 
 interface PageProps {
   params: {
